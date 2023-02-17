@@ -1,0 +1,10 @@
+body{
+    background-image: radial-gradient(aqua,rgb(9, 186, 209),rgb(45, 149, 247),darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.nav-link{
+    color:black;
+
+}
