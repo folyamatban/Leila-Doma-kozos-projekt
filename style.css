@@ -1,10 +1,44 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: radial-gradient(aqua,rgb(9, 186, 209),rgb(45, 149, 247),darkblue);
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: aquamarine;
+}
+header{
+    height: 10vw;
+    background-image: url(kep/hatterkep.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    background-color: aquamarine;
+    border: 2px solid black;
+}
 .nav-link{
     color:black;
+    
+}
+article{
+    background-color: coral;
+}
+header, footer{
+    text-align: center;
+    padding: 3px;
+   
+}
 
+.cim{
+    padding: 3px;
+    text-align: center;
+    font-style: oblique;
 }
